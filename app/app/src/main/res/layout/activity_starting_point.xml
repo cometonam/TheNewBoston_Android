@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".startingPoint"
+    android:background="@android:color/black">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Your total is 0"
+        android:textSize="45dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/tv_display"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Add One"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:id="@+id/btn_Add"
+        android:onClick="onClick">
+    </Button>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Subtract One"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:id="@+id/btn_Sub"
+        android:onClick="onClick">
+    </Button>
+</LinearLayout>
